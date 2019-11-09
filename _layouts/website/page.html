@@ -36,7 +36,6 @@
                 {% endif %}
             </div>
             {% block search_input %}{% endblock %}
-            <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CE7DP27M&placement=abnerchoume" id="_carbonads_js"></script>
             {% block book_summary %}
                 <nav role="navigation">
                 {% include "website/summary.html" %}
@@ -55,6 +54,7 @@
                         <div class="page-inner">
                             {% block search_results %}
                                 <section class="normal markdown-section">
+                                <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CE7DP27M&placement=abnerchoume" id="_carbonads_js"></script>
                                 {% block page %}
                                 {{ page.content|safe }}
                                 {% endblock %}
