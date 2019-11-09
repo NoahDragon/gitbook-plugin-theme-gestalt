@@ -19,7 +19,7 @@ gulp.task( "copy", function(done) {
 
     // Copy over stuff
 
-    var fonts = gulp.src( ["node_modules/font-awesome/fonts/**/"] )
+    var fonts = gulp.src( ["node_modules/font-awesome/fonts/*.*"] )
     .pipe( gulp.dest("_assets/website/fonts/fontawesome/") )
     ;
 
